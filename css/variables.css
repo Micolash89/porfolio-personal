@@ -3,9 +3,12 @@
 
   /*========== Colors ==========*/
   --hue: 255;
-  --first-color: hsl(var(--hue), 90%, 60%);
-  --first-color-alt: hsl(var(--hue), 82%, 56%);
+  /* --first-color: hsl(var(--hue), 90%, 60%); */
+  --first-color: #8f754f;
+  /* --first-color-alt: hsl(var(--hue), 82%, 56%); */
+  --first-color-alt: #776242;
   --first-color-light: hsl(var(--hue), 40%, 80%);
+  --first-color-light: #b69462;
   --title-color: hsl(var(--hue), 24%, 16%);
   --title-color2: black;
   --text-color: hsl(var(--hue), 8%, 45%);

@@ -100,11 +100,13 @@ body.dark-theme {
 }
 
 .dark-theme::-webkit-scrollbar-thumb {
-  background-color: hsl(var(--hue), 16%, 25%);
+  /* background-color: hsl(var(--hue), 16%, 25%); */
+  background-color: #554d41;
 }
 
 .dark-theme::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(var(--hue), 16%, 35%);
+  /* background-color: hsl(var(--hue), 16%, 35%); */
+  background-color: #cca56b;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -130,10 +132,10 @@ body.dark-theme {
 
 .perfil {
   width: 250px;
-  height: 250px;
+  height: 280px;
   background-color: var(--body-color);
-  border: 8px solid var(--first-color);
-  border-radius: 50%;
+  border: 10px solid var(--first-color) !important;
+  border-radius: 1%;
   display: grid;
   place-items: center;
   transition: background-color 0.4s;
@@ -141,9 +143,9 @@ body.dark-theme {
 
 .perfil__content {
   width: 180px;
-  height: 180px;
-  border: 10px solid var(--first-color);
-  border-radius: 50%;
+  height: max-content !important;
+  border: 10px solid var(--first-color) !important;
+  border-radius: 1%;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -155,8 +157,13 @@ body.dark-theme {
   );
 }
 
+.perfil__content--about {
+  align-self: flex-start;
+}
+
 .perfil__img {
   width: 100% !important;
+  filter: grayscale(1);
 }
 
 .main {
@@ -287,11 +294,13 @@ body.dark-theme {
   font-weight: var(--font-semi-bold);
   padding: 1rem 2rem;
   transition: background-color 0.4s, box-shadow 0.4s;
+  border-radius: 5px;
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
-  box-shadow: 0 8px 24px hsla(var(--hue), 90%, 30%, 0.3);
+  /* box-shadow: 0 8px 24px hsla(var(--hue), 90%, 30%, 0.3); */
+  box-shadow: 0 8px 24px hsla(32, 36%, 43%, 0.3);
 }
 /*=============== HOME ===============*/
 
@@ -533,7 +542,7 @@ body.dark-theme {
   position: absolute;
   top: 1.25rem;
   right: 1.25rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--first-color);
   transition: transform 0.4s;
 }
@@ -651,6 +660,12 @@ body.dark-theme {
   transition: border-color 0.4s, background-color 0.4s;
 }
 
+.contact__button--index {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contact__input:focus {
   border-color: var(--title-color);
 }
@@ -760,15 +775,17 @@ body.dark-theme {
 
 ::-webkit-scrollbar {
   width: 0.6rem;
-  background-color: hsl(var(--hue), 20%, 85%);
+  /* background-color: hsl(var(--hue), 20%, 85%); */
+  background-color: #ddd6cb;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(var(--hue), 20%, 65%);
+  /* background-color: hsl(var(--hue), 20%, 65%); */
+  background-color: #775e38;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(var(--hue), 20%, 55%);
+  background-color: #ad8e5e;
 }
 
 /*=============== SCROLL UP ===============*/
@@ -812,6 +829,10 @@ body.dark-theme {
   /* .about__skills-content {
     grid-template-columns: repeat(7, max-content);
   } */
+
+  .perfil__content--about {
+    align-self: center;
+  }
 
   .grid {
     display: flex !important;
@@ -942,8 +963,8 @@ body.dark-theme {
   }
 
   .perfil {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 550px;
     border-width: 15px;
   }
 
