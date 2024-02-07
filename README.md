@@ -6,7 +6,7 @@ Este es un ejemplo de una página de portafolio personal desarrollada por Javier
 
 ## Deploy del Proyecto
 
-**_Github Pages_** : https://micolash89.github.io/porfolio-example/
+**_Github Pages_** : https://micolash89.github.io/porfolio-personal/
 
 ## Estructura del Proyecto
 

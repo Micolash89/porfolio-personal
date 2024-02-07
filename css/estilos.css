@@ -351,7 +351,7 @@ body.dark-theme {
 }
 
 .home__social-link {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: var(--title-color);
   transition: color 0.4s;
 }
@@ -429,6 +429,7 @@ body.dark-theme {
 
 .services__container {
   row-gap: 2rem;
+  display: flex;
 }
 
 .services__card {
@@ -437,6 +438,7 @@ body.dark-theme {
   box-shadow: 0 15px 24px var(--shadow-color);
   text-align: center;
   transition: background-color 0.4s;
+  max-width: 345px;
 }
 
 .services__icon {

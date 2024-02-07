@@ -16,7 +16,7 @@
   --white-color: hsl(0, 0%, 100%);
   --body-color: hsl(0, 0%, 100%);
   --container-color: hsl(0, 0%, 100%);
-  --shadow-color: hsla(var(--hue), 90%, 30%, 0.1);
+  --shadow-color: hsla(49, 90%, 30%, 0.1);
 
   /*========== Font and typography ==========*/
   --body-font: "Syne", sans-serif;
