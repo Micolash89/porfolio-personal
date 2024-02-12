@@ -567,6 +567,32 @@ body.dark-theme {
   padding-bottom: 4rem;
 }
 
+/*icon work*/
+
+.work__imgContainer {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.work__imgContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.work__imgContainer--icon {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.4s;
+}
+
+.work__imgContainer--icon:hover {
+  transform: translateY(-0.5rem);
+}
+
 /*=============== TESTIMONIAL ===============*/
 
 .testimonial__container {
@@ -866,6 +892,14 @@ body.dark-theme {
   .work__container {
     grid-template-columns: 350px;
     justify-content: center;
+  }
+
+  .work__img {
+    width: 350px;
+    height: 224px;
+  }
+
+  .work__imgContainer {
   }
 
   .about__container {
