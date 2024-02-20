@@ -216,7 +216,7 @@ body.dark-theme {
 @media screen and (max-width: 1150px) {
   .nav__menu {
     position: fixed;
-    top: -100%;
+    top: -250%;
     left: 0;
     background-color: var(--body-color);
     width: 100%;
@@ -287,7 +287,7 @@ body.dark-theme {
 
 /*=============== BUTTON ===============*/
 .button {
-  display: inline-flex !important;
+  display: inline-flex;
   justify-content: center;
   background-color: var(--first-color);
   color: var(--white-color);
@@ -508,11 +508,18 @@ body.dark-theme {
 
 .services__modal-list {
   margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start !important;
 }
 
 .services__modal-item {
   text-align: initial;
   list-style: square;
+  /* justify-content: start; */
+  /* flex-direction: column;
+
+  display: flex; */
 }
 
 .services__modal-item::marker {

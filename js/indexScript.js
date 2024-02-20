@@ -5,6 +5,7 @@
         modalButton = document.querySelectorAll(".services__button"),
         modalClose = document.querySelectorAll(".services__modal-close");
 
+
     let activate = (modalClick) => {
         modal[modalClick].classList.add("active-modal");
     }
@@ -24,7 +25,6 @@
             })
         })
     })
-
 
     /* paginación*/
 
