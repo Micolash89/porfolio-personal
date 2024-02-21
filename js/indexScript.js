@@ -29,17 +29,18 @@
     /* paginación*/
 
     const swiperTestimonial = new Swiper('.testimonial__swiper', {
-
         loop: true,
         spaceBetween: 32,
         grabCursor: true,
-
+        autoplay: {
+            delay: 4000, // tiempo en milisegundos entre cada cambio de slide
+            disableOnInteraction: false, // deshabilitar el autoplay al interactuar con el carrusel (por ejemplo, cuando el usuario desliza manualmente)
+        },
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
             dynamicBullets: true,
             clickable: true,
         },
-
     });
 })();

@@ -644,9 +644,9 @@ body.dark-theme {
 .testimonial__img {
   width: 100px;
   height: 100px;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: filter 0.4s;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .testimonial__name {
@@ -654,8 +654,21 @@ body.dark-theme {
   margin-bottom: 0.5rem;
 }
 
+.testimonial__img--cover {
+  object-fit: cover;
+}
+
 .testimonial__card:hover .testimonial__img {
   filter: none;
+}
+
+.testimonial__description b {
+  color: var(--first-color);
+}
+
+#testimonial {
+  padding-top: 0px !important;
+  margin-bottom: 20px;
 }
 
 /* Swiper class */
