@@ -98,7 +98,7 @@ function doPost (e) {
 
 - [Link](https://www.youtube.com/watch?v=a8Om25FbaJA&t=1049s) para mas información acerca de googlesheets.
 
-## capturas
+## capturas de pantalla
 
 <p align='center'>
 <img src="/img/desktop-inicio.jpg" alt="Inicio" width="75%"/>
