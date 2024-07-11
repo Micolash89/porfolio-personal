@@ -8,7 +8,7 @@ Este es página de portafolio personal desarrollada por Javier Espindola. La pá
 
 ## Estructura del Proyecto
 
-El proyecto sigue una estructura HTML básica con secciones para Home, Servicios, Trabajos Recientes y Contacto. También incluye un archivo CSS para estilos y un par de scripts JavaScript para funcionalidades interactivas.
+El proyecto sigue una estructura HTML5 básica con secciones para Home, Servicios, Trabajos Recientes y Contacto. También incluye un archivo CSS3 para estilos y un par de scripts JavaScript para funcionalidades interactivas.
 
 ## Funcionalidades Destacadas
 
@@ -24,8 +24,8 @@ El proyecto sigue una estructura HTML básica con secciones para Home, Servicios
 
 ## Tecnologías Utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - [Swiper.js](https://swiperjs.com/) para el carrusel de formación.
 
